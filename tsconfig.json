@@ -6,4 +6,7 @@
       "ESNext"
     ],    
   },
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+  }
 }

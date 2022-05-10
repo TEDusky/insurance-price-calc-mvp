@@ -35,7 +35,6 @@ export class Insurance {
             }
     
             const base = this.insurance_pacakge.price_day * this.getInsuranceDays() * this.people;
-    
             let final = base;
     
             this.additional?.forEach((additional) => { 
