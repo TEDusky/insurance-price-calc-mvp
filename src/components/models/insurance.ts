@@ -53,10 +53,8 @@ export class Insurance {
     }
 
     validate() { 
-        return this.required_props.every((req) => { 
-            type ObjectKey = keyof typeof this;
-            const prop = req as ObjectKey;
-            if(this[prop] == null) {
+        return this.required_props.every((req) => {
+            if((this as never)[req] == null) {
                 return false;
             }
     

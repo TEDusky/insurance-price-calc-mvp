@@ -3,8 +3,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "lib": [
-      "ESNext"
+      "ESNext",
+      "dom"      
     ],    
+    "types": [
+      "node",
+      "quasar"
+    ]    
   },
   "vueCompilerOptions": {
     "experimentalDisableTemplateSupport": true,
