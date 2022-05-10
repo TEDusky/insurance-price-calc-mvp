@@ -1,0 +1,18 @@
+// app global css in SCSS form
+body { 
+    background: linear-gradient(90deg, rgba(69,196,176,1) 0%, rgba(218,253,186,1) 35%, rgba(218,253,186,1) 100%);
+
+    &.q-body--prevent-scroll {
+        background: #dafdba;
+    }
+}
+
+.text-h6 { 
+    color: $primary;
+}
+
+.q-page { 
+    left: 50%;
+    transform: translate(-50%,0);
+    min-width: 40%;
+}
